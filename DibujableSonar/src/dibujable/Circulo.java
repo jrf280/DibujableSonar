@@ -1,9 +1,11 @@
 package dibujable;
 
-public class Circulo extends Geometria {
+public class Circulo implements Geometria {
 	static int numCirculos = 0;
 	public static final double PI = 3.14159265358979323846;
-	public double x, y, r;
+	protected double x;
+	protected double y;
+	protected double r;
 
 	public Circulo(double x, double y, double r) {
 		this.x = x;

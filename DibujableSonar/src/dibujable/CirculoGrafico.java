@@ -21,6 +21,7 @@ public class CirculoGrafico extends Circulo implements Dibujable {
 	}
 
 	public void setPosicion(double x, double y) {
-		;
+		this.x=x;
+		this.y=y;
 	}
 }

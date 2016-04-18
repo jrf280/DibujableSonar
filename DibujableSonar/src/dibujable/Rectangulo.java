@@ -1,9 +1,12 @@
 package dibujable;
 
-public class Rectangulo extends Geometria {
+public class Rectangulo implements Geometria {
 	// definición de variables miembro de la claes
 	private static int numRectangulos = 0;
-	protected double x1, y1, x2, y2;
+	protected double x1;
+	protected double y1;
+	protected double x2;
+	protected double y2;
 
 	// constructores de la clase
 	public Rectangulo(double p1x, double p1y, double p2x, double p2y) {
